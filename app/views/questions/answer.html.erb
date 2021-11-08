@@ -1,0 +1,9 @@
+<h1>Q & A</h1>
+<ul style="list-style: none;">
+<li><%= params[:question] %></li>
+<li>(You)</li>
+<hr>
+<li class="color-background"><%= @answer %></li>
+<li class="color-background">(Your coach)</li>
+</ul>
+<%= link_to "Ask a new question", ask_path %>
